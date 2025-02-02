@@ -1,0 +1,26 @@
+flag_params:
+  plot: true
+
+exp_params:
+  exp_type: null
+  n_seeds: 100
+  level: "0.01 0.02 0.03"
+
+data_params:
+  n_features: 1
+  initial_labeled: 50
+  n_train: 2000
+  p_train: null
+  n_cal: 3000
+  p_cal: 0.03
+  n_test: 1000
+  p_test: 0.05
+  dataset: "scores_cifar10"
+  dataset_version: 1
+  dataset_path: [
+                 './datasets_scores/cifar10_svhn/n_train_2000_0.03/cifar10/resnet18_32x32/react/',
+                 ]
+  outlr_dataset: 'svhn'
+
+model_params:
+  model: null

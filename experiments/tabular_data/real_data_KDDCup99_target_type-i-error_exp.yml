@@ -1,0 +1,25 @@
+flag_params:
+  plot: true
+
+exp_params:
+  exp_type: "levels"
+  exp_params: "0.01 0.02 0.03 0.04 0.05"
+  n_seeds: 100
+  level: 0.02
+
+data_params:
+  initial_labeled: 50
+  n_train: 5000
+  p_train: null
+  n_cal: 2500
+  p_cal: 0.03
+  n_test: 1000
+  p_test: 0.05
+  dataset: "KDDCup99"
+  dataset_version: 1
+  dataset_path: null
+  outlr_dataset: null
+
+model_params:
+  model: "IF"
+  n_estimators: 100

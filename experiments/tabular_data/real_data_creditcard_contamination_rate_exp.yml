@@ -1,0 +1,25 @@
+flag_params:
+  plot: true
+
+exp_params:
+  exp_type: "outliers_calib"
+  exp_params: "0 0.005 0.01 0.015 0.02 0.025 0.03 0.035 0.04 0.045 0.05"
+  n_seeds: 100
+  level: "0.01 0.02 0.03"
+
+data_params:
+  initial_labeled: 50
+  n_train: 2000
+  p_train: null
+  n_cal: 2500
+  p_cal: 0.05
+  n_test: 1000
+  p_test: 0.05
+  dataset: "creditcard"
+  dataset_version: 1
+  dataset_path: null
+  outlr_dataset: null
+
+model_params:
+  model: "IF"
+  n_estimators: 100

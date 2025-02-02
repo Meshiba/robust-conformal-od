@@ -1,0 +1,25 @@
+flag_params:
+  plot: true
+
+exp_params:
+  exp_type: "labeling_budget"
+  exp_params: "10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 105"
+  n_seeds: 100
+  level: "0.01 0.02 0.03"
+
+data_params:
+  initial_labeled: 50
+  n_train: 2000
+  p_train: null
+  n_cal: 2500
+  p_cal: 0.03
+  n_test: 1000
+  p_test: 0.05
+  dataset: "creditcard"
+  dataset_version: 1
+  dataset_path: null
+  outlr_dataset: null
+
+model_params:
+  model: "IF"
+  n_estimators: 100

@@ -1,0 +1,27 @@
+flag_params:
+  plot: false
+
+exp_params:
+  exp_type: null
+  #  exp_params: null
+  n_seeds: 100
+  level: 0.03
+
+data_params:
+  initial_labeled: 0
+  n_train: 10000
+  p_train: null
+  n_cal: 10000
+  p_cal: 0.05
+  n_test: 10000
+  p_test: 0.05
+  dataset: "shuttle"
+  dataset_version: 1
+  dataset_path: null
+  outlr_dataset: null
+  n_features: 100
+  mu_outlier: 2.5
+
+model_params:
+  model: "OC-SVM"
+
