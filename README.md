@@ -2,7 +2,7 @@
 # Robust Conformal Outlier Detection under Contaminated Reference Data
 
 
-This repository contains a Python implementation of the following paper: "Robust Conformal Outlier Detection under Contaminated Reference Data".
+This repository contains a Python implementation of the following paper: ["Robust Conformal Outlier Detection under Contaminated Reference Data"](https://arxiv.org/abs/2502.04807).
 The repository includes an implementation of the proposed *Label-Trim* method.
 Baseline methods implementation alongside code for real data experiments are included in this repository.
 
@@ -31,6 +31,7 @@ Experiments on real datasets validate the conservative behavior of conformal met
   - [💻 Running Experiments on SLURM Cluster (or Locally)](#slurm)  
   - [📊 Plotting Experiment Results](#plots)  
 - [📜 License](#license)  
+- [:books: Citation](#cite)
 
 ---
 
@@ -162,4 +163,16 @@ python plot_main.py --help
 ## **📜 License**  <a name="licence"></a>
 This project is licensed under the **MIT License**.
 
+---
+## **:books: Citation**  <a name="cite"></a>
+If you use this code or ideas from this project in your research, please cite:
+```bibtex
+@inproceedings{bashari2025robust,
+              title={Robust Conformal Outlier Detection under Contaminated Reference Data},
+              author={Meshi Bashari and Matteo Sesia and Yaniv Romano},
+              booktitle={Forty-second International Conference on Machine Learning},
+              year={2025},
+              url={https://openreview.net/forum?id=s55Af9Emyq}
+}
+```
 ---
